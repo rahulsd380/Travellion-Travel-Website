@@ -1,3 +1,4 @@
+import Blog from "../Blog/Blog";
 import Navbar from "../Navbar/Navbar";
 import PopularDestinations from "../PopularDestinations/PopularDestinations";
 import SepcialOffer from "../SpecialOffer/SepcialOffer";
@@ -9,6 +10,7 @@ const Home = () => {
             <Navbar></Navbar>
             <PopularDestinations></PopularDestinations>
             <SepcialOffer></SepcialOffer>
+            <Blog></Blog>
         </div>
     );
 };
