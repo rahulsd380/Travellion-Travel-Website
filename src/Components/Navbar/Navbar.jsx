@@ -1,11 +1,75 @@
-
+import { Link } from "react-router-dom";
+import Sidebar from "../Sidebar/Sidebar";
 
 const Navbar = () => {
-    return (
-        <div>
-            
+
+  return (
+    <div className="px-5 py-3">
+      <div className="flex justify-between items-center gap-2">
+        <div className="flex items-center gap-3">
+          <img
+            className="w-7"
+            src="/public/logo.png"
+            alt=""
+          />
+          <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">
+            Travellion
+          </h1>
         </div>
-    );
+
+        <div className="hidden md:flex md:items-center md:gap-8">
+          <Link
+            to={"/"}
+            className="hover:text-blue-400 transition duration-300 text-gray-500 font-semibold "
+          >
+            Home
+          </Link>
+          <Link
+            to={"/aboutUs"}
+            className="hover:text-blue-400 transition duration-300 text-gray-500 font-semibold "
+          >
+            Explore
+          </Link>
+
+          <Link
+            to={"/blogs"}
+            className="hover:text-blue-400 transition duration-300 text-gray-500 font-semibold "
+          >
+            Travel
+          </Link>
+          <Link
+            to="faq"
+            className="hover:text-blue-400 transition duration-300 text-gray-500 font-semibold "
+          >
+            Blog
+          </Link>
+          <Link
+            to="faq"
+            className="hover:text-blue-400 transition duration-300 text-gray-500 font-semibold "
+          >
+            Pricing
+          </Link>
+        </div>
+
+        <div className="flex items-center">
+            <div className="hidden md:flex items-center gap-5">
+              <Link to={"/login"}>
+                <button className=" font-semibold  rounded-md transition duration-300 hover:text-orange-500">
+                  Login
+                </button>
+              </Link>
+
+              <Link to={"/signup"}>
+                <button className="text-white bg-orange-400 font-semibold border-blue-400 rounded-md py-2 px-4">
+                  Sign Up
+                </button>
+              </Link>
+            </div>
+        </div>
+        <Sidebar></Sidebar>
+      </div>
+    </div>
+  );
 };
 
 export default Navbar;
