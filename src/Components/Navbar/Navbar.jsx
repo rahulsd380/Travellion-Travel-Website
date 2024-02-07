@@ -20,32 +20,32 @@ const Navbar = () => {
         <div className="hidden md:flex md:items-center md:gap-8">
           <Link
             to={"/"}
-            className="hover:text-blue-400 transition duration-300 text-gray-500 font-semibold "
+            className="hover:text-orange-500 transition duration-300 text-gray-500 font-semibold "
           >
             Home
           </Link>
           <Link
             to={"/aboutUs"}
-            className="hover:text-blue-400 transition duration-300 text-gray-500 font-semibold "
+            className="hover:text-orange-500 transition duration-300 text-gray-500 font-semibold "
           >
             Explore
           </Link>
 
           <Link
             to={"/blogs"}
-            className="hover:text-blue-400 transition duration-300 text-gray-500 font-semibold "
+            className="hover:text-orange-500 transition duration-300 text-gray-500 font-semibold "
           >
             Travel
           </Link>
           <Link
             to="faq"
-            className="hover:text-blue-400 transition duration-300 text-gray-500 font-semibold "
+            className="hover:text-orange-500 transition duration-300 text-gray-500 font-semibold "
           >
             Blog
           </Link>
           <Link
             to="faq"
-            className="hover:text-blue-400 transition duration-300 text-gray-500 font-semibold "
+            className="hover:text-orange-500 transition duration-300 text-gray-500 font-semibold "
           >
             Pricing
           </Link>
