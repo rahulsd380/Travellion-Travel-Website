@@ -1,5 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import PopularDestinations from "../PopularDestinations/PopularDestinations";
+import SepcialOffer from "../SpecialOffer/SepcialOffer";
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Navbar></Navbar>
             <PopularDestinations></PopularDestinations>
+            <SepcialOffer></SepcialOffer>
         </div>
     );
 };
