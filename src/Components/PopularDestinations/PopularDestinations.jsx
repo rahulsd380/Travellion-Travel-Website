@@ -56,15 +56,6 @@ const PopularDestinations = () => {
     setCurrentSlider((currentSlider) =>
       currentSlider === locations.length - 2 ? 0 : currentSlider + 1
     );
-  // if you don't want to change the slider automatically then you can just remove the useEffect
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      nextSlider();
-    }, 5000);
-    return () => {
-      clearInterval(intervalId);
-    };
-  }, [currentSlider]);
 
   const isSmallScreen = window.innerWidth <= 768;
   return (

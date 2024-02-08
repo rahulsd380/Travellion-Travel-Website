@@ -12,8 +12,8 @@ const Blog = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-10">
-      <div className="grid grid-cols-2 gap-5 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
         <img className="rounded-2xl" src="/public/images/7.jpg" alt="" />
         <div className="">
             <h1 className="mb-2 text-3xl">Beautiful Italy <br /> Let’s travel</h1>
@@ -22,7 +22,7 @@ const Blog = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-5 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
         <img className="rounded-2xl" src="/public/images/7.jpg" alt="" />
         <div className="">
             <h1 className="mb-2 text-3xl">Beautiful Italy <br /> Let’s travel</h1>

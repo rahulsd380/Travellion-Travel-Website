@@ -72,9 +72,9 @@ const Testimonials = () => {
           >
             {/* sliders */}
             {locations.map((each, idx) => (
-              <div key={idx} className="p-4 md:min-w-[30%]">
+              <div key={idx} className="p-4 md:min-w-[40%]">
                 <div className="bg-[#f5f6f7] p-3 rounded-md relative">
-            <div className="avatar absolute bottom-64">
+            <div className="avatar absolute bottom-60">
   <div className="w-16 rounded-full">
     <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
   </div>
@@ -94,8 +94,27 @@ const Testimonials = () => {
               </div>
             ))}
           </div>
-        </div>
+          <div className="flex justify-end mt-10">
+      <div className="flex items-center gap-3">
+            <div
+              onClick={prevSlider}
+              className="bg-gray-800 hover:bg-gray-700 transition duration-300 p-2 rounded-md text-white cursor-pointer"
+            >
+              <FaAngleLeft></FaAngleLeft>
+            </div>
+            <div
+              onClick={nextSlider}
+              className="bg-orange-500 hover:bg-orange-600 transition duration-300 p-2 rounded-md text-white cursor-pointer"
+            >
+              <FaAngleRight></FaAngleRight>
+            </div>
+          </div>
       </div>
+        </div>
+        
+      </div>
+
+      
     </div>
     );
 };
