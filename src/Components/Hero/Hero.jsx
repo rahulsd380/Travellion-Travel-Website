@@ -1,11 +1,13 @@
 
 
-const Hero = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+const DestinationGallery = () => {
+  
+
+  return (
+    <div className="">
+    
+    </div>
+  );
 };
 
-export default Hero;
+export default DestinationGallery;

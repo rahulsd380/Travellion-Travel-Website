@@ -53,7 +53,7 @@ const SepcialOffer = () => {
     return (
         <div className="max-w-7xl mx-auto py-10">
       <div>
-        <h1 className="text-3xl mb-3 text-end">Popular Destinations</h1>
+        <h1 className="text-3xl mb-3 text-end">Special Offer</h1>
         <div className="flex justify-end">
         <div className="h-0.5 w-44 bg-orange-500 mb-2"></div>
         </div>
@@ -74,8 +74,7 @@ const SepcialOffer = () => {
           </div>
 
           <p className="">
-            Most popular destinations around the world, from historical places
-            to natural wonders.
+          Check out our special offer and discounts
           </p>
         </div>
       </div>
