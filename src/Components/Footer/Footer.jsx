@@ -7,8 +7,8 @@ import { IoLogoTwitter } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <div className="relative pt-28">
-        <div className="bg-white shadow-2xl border border-gray-500 py-10 px-5 rounded-lg grid grid-cols-1 md:grid-cols-2 gap-5 w-9/12 mx-auto absolute left-44 bottom-[300px]">
+    <div className="relative pt-40 md:pt-28">
+        <div className="bg-white shadow-2xl border border-gray-500 py-4 md:py-10 px-5 rounded-lg grid grid-cols-1 md:grid-cols-2 gap-5 w-5/6 md:w-9/12 mx-auto absolute left-10 md:left-44 bottom-[800px] md:bottom-[300px]">
             <h1 className="text-6xl text-gray-400">Our Newsletter</h1>
             <div className="flex items-center gap-2">
             <div className="">

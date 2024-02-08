@@ -72,7 +72,7 @@ const DestinationGalary = () => {
 
     return (
         <div className="max-w-7xl mx-auto py-10">
-      <div>
+      <div className="px-3 md:px-0">
         <h1 className="text-3xl mb-3">Destination Gallery</h1>
         <div className="h-0.5 w-44 bg-orange-500 mb-2"></div>
         <div className="flex justify-between items-center">

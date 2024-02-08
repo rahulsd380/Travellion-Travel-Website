@@ -52,7 +52,7 @@ const Testimonials = () => {
 
     return (
         <div className="max-w-7xl mx-auto py-10">
-      <div className="mb-10">
+      <div className="mb-10 px-3 md:px-0">
         <h1 className="text-3xl mb-3">Traveler’s Experiences</h1>
         <div className="h-0.5 w-44 bg-orange-500 mb-2"></div><p className="">
           Here some awesome feedback from our travelers
@@ -72,9 +72,9 @@ const Testimonials = () => {
           >
             {/* sliders */}
             {locations.map((each, idx) => (
-              <div key={idx} className="p-4 md:min-w-[40%]">
+              <div key={idx} className="p-4 min-w-[100%] md:min-w-[40%]">
                 <div className="bg-[#f5f6f7] p-3 rounded-md relative">
-            <div className="avatar absolute bottom-60">
+            <div className="avatar absolute bottom-72 md:bottom-60">
   <div className="w-16 rounded-full">
     <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
   </div>
