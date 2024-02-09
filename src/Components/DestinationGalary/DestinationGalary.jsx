@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
-import { MdLocationOn } from "react-icons/md";
 
 
 const DestinationGalary = () => {
@@ -97,7 +96,7 @@ const DestinationGalary = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 pt-10"></div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-10"></div>
 
       <div className="max-w-7xl mx-auto h-[400px] flex flex-row items-center overflow-hidden gap-5 lg:gap-10">
         <div className="relative overflow-hidden">
@@ -113,7 +112,7 @@ const DestinationGalary = () => {
             {/* sliders */}
             {locations.map((each, idx) => (
               <div key={idx} className="p-4 min-w-full md:min-w-[30%]">
-                <div className="">
+                <div className="relative">
                   <img
                     className="h-96 rounded-2xl relative w-full transition-transform transform hover:-translate-y-3 cursor-pointer"
                     src={each.image}

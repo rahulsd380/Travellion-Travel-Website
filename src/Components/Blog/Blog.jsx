@@ -1,4 +1,6 @@
 import { FaArrowRightLong } from "react-icons/fa6";
+import blogPic1 from "../../../public/images/7.jpg"
+import blogPic2 from "../../../public/images/7.jpg"
 
 const Blog = () => {
   return (
@@ -14,7 +16,7 @@ const Blog = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
-        <img className="rounded-2xl" src="/public/images/7.jpg" alt="" />
+        <img className="rounded-2xl" src={blogPic1} alt="" />
         <div className="px-3 md:px-0">
             <h1 className="mb-2 text-3xl">Beautiful Italy <br /> Let’s travel</h1>
             <p className="mb-3">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness. No one rejects, dislike, or avoids plasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremly painful. Nor again is there anyone who loves or pursues.</p>
@@ -23,7 +25,7 @@ const Blog = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
-        <img className="rounded-2xl" src="/public/images/7.jpg" alt="" />
+        <img className="rounded-2xl" src={blogPic2} alt="" />
         <div className="px-3 md:px-0">
             <h1 className="mb-2 text-3xl">Beautiful Italy <br /> Let’s travel</h1>
             <p className="mb-3">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness. No one rejects, dislike, or avoids plasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremly painful. Nor again is there anyone who loves or pursues.</p>

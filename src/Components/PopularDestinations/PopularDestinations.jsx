@@ -59,8 +59,8 @@ const PopularDestinations = () => {
 
   const isSmallScreen = window.innerWidth <= 768;
   return (
-    <div className="max-w-7xl mx-auto py-10">
-      <div>
+    <div className="max-w-7xl mx-auto py-28 md:py-16">
+      <div className="px-5 md:px-5 lg:px-">
         <h1 className="text-3xl mb-3">Popular Destinations</h1>
         <div className="h-0.5 w-44 bg-orange-500 mb-2"></div>
         <div className="flex justify-between items-center">

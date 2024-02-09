@@ -59,8 +59,8 @@ const Testimonials = () => {
           </p>
       </div>
 
-      <div className="">
-        <div className="">
+      <div className="max-w-7xl mx-auto h-[400px] flex flex-row items-center overflow-hidden gap-5 lg:gap-10">
+        <div className="relative overflow-hidden">
           {/* slider container */}
           <div
             className="ease-linear duration-300 flex"
@@ -74,12 +74,12 @@ const Testimonials = () => {
             {locations.map((each, idx) => (
               <div key={idx} className="p-4 min-w-[100%] md:min-w-[40%]">
                 <div className="bg-[#f5f6f7] p-3 rounded-md relative">
-            <div className="avatar absolute bottom-72 md:bottom-60">
+            <div className="avatar absolute bottom-72 md:bottom-56">
   <div className="w-16 rounded-full">
     <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
   </div>
 </div>
-                <p className="text-gray-500 mb-3 mt-5">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.</p>
+                <p className="text-gray-500 mb-3 mt-8">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.</p>
                 <div className="flex items-center gap-2 text-yellow-400 mb-3">
         <FaStar></FaStar>
         <FaStar></FaStar>

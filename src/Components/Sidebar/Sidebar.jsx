@@ -31,7 +31,7 @@ const Sidebar = () => {
             src="/public/logo.png"
             alt=""
           />
-          <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">
+          <h1 className="text-xl md:text-2xl font-bold text-white">
             Travellion
           </h1>
         </div>
