@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { GoHome } from "react-icons/go";
 import { MdOutlineHelpCenter } from "react-icons/md";
 import { LuFileQuestion } from "react-icons/lu";
+import logo from "../../../public/images/logo.png"
 
 const Sidebar = () => {
 
@@ -28,7 +29,7 @@ const Sidebar = () => {
             <div className="flex items-center gap-3">
           <img
             className="w-7"
-            src="/public/logo.png"
+            src={logo}
             alt=""
           />
           <h1 className="text-xl md:text-2xl font-bold text-white">
